@@ -297,3 +297,24 @@ footer p{
         width:110px;
     }
 }
+
+/* BOTÓN MÁS INFORMACIÓN */
+
+.btn-info{
+    display:inline-block;
+    padding:14px 28px;
+    text-decoration:none;
+    border-radius:8px;
+    transition:0.3s;
+    margin:10px;
+    border:1px solid #ff3b3b;
+    color:#ff3b3b;
+    font-weight:bold;
+}
+
+.btn-info:hover{
+    background:#ff3b3b;
+    color:white;
+    box-shadow:0 0 20px rgba(255,0,0,0.5);
+    transform:translateY(-3px);
+}
